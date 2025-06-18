@@ -1,0 +1,23 @@
+## ==== Global Settings ====
+set linenumbers          # Show line numbers
+set tabsize 4            # Tabs = 4 spaces
+set tabstospaces         # Auto convert tabs to spaces
+set autoindent           # Auto indent
+set constantshow         # Always show cursor
+set mouse                # Use mouse
+
+set numbercolor bold,#000,#4F6 # Set line number colors
+set promptcolor bold,#000,#4F6 # Set prompt colors
+set statuscolor bold,#000,#4F6 # Set statusbar colors
+set titlecolor bold,#000,#4F6  # Set titlebar colors
+set indicator                  # Show scrollbar
+
+include "~/.nano/python.nanorc"
+include "~/.nano/css.nanorc"
+include "~/.nano/html.nanorc"
+include "~/.nano/markdown.nanorc"
+include "~/.nano/js.nanorc"
+include "~/.nano/csv.nanorc"
+include "~/.nano/yaml.nanorc"
+include "~/.nano/json.nanorc"
+include "~/.nano/xml.nanorc"
